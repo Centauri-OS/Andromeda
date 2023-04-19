@@ -24,7 +24,7 @@ make install
 ```
 **And for git that, if you use doas or any alternative means of authentication sudo, remember to replace sudo with it:**
 ```
-tar -zxf git-2.8.0.tar.gz
+tar -xzf git-2.8.0.tar.gz
 cd git-2.8.0
 make configure
 ./configure --prefix=/usr
