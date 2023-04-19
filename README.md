@@ -12,11 +12,24 @@ Free Space: 7GB
 ```
 **To install the GCC Comiler you can follow this tutorial:**
 ```
-https://gcc.gnu.org/wiki/InstallingGCC
+tar xzf gcc-4.6.2.tar.gz
+cd gcc-4.6.2
+./contrib/download_prerequisites
+cd ..
+mkdir objdir
+cd objdir
+$PWD/../gcc-4.6.2/configure --prefix=$HOME/GCC-4.6.2 --enable-languages=c,c++,fortran,go
+make
+make install
 ```
-**And for git this:**
+**And for git this,if you use doas or any alternative means of authentication to sudo, remember to replace sudo with it:**
 ```
-https://www.linuxfromscratch.org/blfs/view/svn/general/git.html
+tar -zxf git-2.8.0.tar.gz
+cd git-2.8.0
+make configure
+./configure --prefix=/usr
+make all doc info
+sudo make install install-doc install-html install-info
 ```
 **To see if you have the necessary space:**
 ```
