@@ -12,7 +12,7 @@ Free Space: 7GB
 ```
 **To install the GCC you can follow this tutorial:**
 ```
-tar xzf gcc-4.6.2.tar.gz
+tar -xzf gcc-4.6.2.tar.gz
 cd gcc-4.6.2
 ./contrib/download_prerequisites
 cd ..
