@@ -4,3 +4,9 @@ The name of this custom kernel is 'Andromeda'. It is a fusion of two existing ke
 The PDS scheduler in the TKPG-PDS variant is designed to improve system responsiveness and reduce latency, making the kernel ideal for multitasking and handling heavy workloads. The Gentoo patches used in the TKPG-PDS variant provide additional optimizations and features, such as CPU scheduler tweaks, network congestion control improvements, and filesystem performance enhancements.
 
 Together with the added security features of the Hardened variant, the Andromed kernel is a powerful and robust system that delivers both speed and security. Whether you are a power user or a security-conscious individual, the Andromed kernel is designed to meet your needs and provide a reliable and efficient computing experience.
+# Pre-requisites
+```
+gcc (compiler needed to make it work)
+git (to copy the repository)
+Free Space: 7GB
+```
