@@ -22,7 +22,7 @@ $PWD/../gcc-4.6.2/configure --prefix=$HOME/GCC-4.6.2 --enable-languages=c,c++,fo
 make
 make install
 ```
-**And for git this,if you use doas or any alternative means of authentication to sudo, remember to replace sudo with it:**
+**And for git this, if you use doas or any alternative means of authentication to sudo, remember to replace sudo with it:**
 ```
 tar -zxf git-2.8.0.tar.gz
 cd git-2.8.0
