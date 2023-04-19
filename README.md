@@ -18,4 +18,7 @@ https://gcc.gnu.org/wiki/InstallingGCC
 ```
 https://www.linuxfromscratch.org/blfs/view/svn/general/git.html
 ```
-
+**To see if you have the necessary space:**
+```
+df -h /
+```
