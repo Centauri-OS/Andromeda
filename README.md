@@ -1,1 +1,2 @@
-# Andromeda
+# Introducing
+The name of this custom kernel is 'Andromed'. It is a fusion of two existing kernel variants - Hardened and TKPG-PDS. The 'Hardened' component refers to the kernel being hardened with additional security features, while 'TKPG-PDS' stands for 'Team Kirkwood's Gentoo Patches with PDS scheduler'. This combination results in a kernel that is both secure and optimized for performance, making it ideal for users who value both speed and security.
