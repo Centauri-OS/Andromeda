@@ -20,5 +20,5 @@ https://www.linuxfromscratch.org/blfs/view/svn/general/git.html
 ```
 **To see if you have the necessary space:**
 ```
-$ df -h /
+df -h /
 ```
