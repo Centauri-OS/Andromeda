@@ -2,6 +2,7 @@
   <img src="https://user-images.githubusercontent.com/129683445/233145928-c65eb94b-75b6-46f8-83b8-0e861e9cedb6.gif" alt="galaxy-andromeda-galaxy">
 </p>
 
+#
 # **Introducing**
 The name of this custom kernel is 'Andromeda'. It is a fusion of two existing kernel variants - Hardened and TKPG-PDS. The 'Hardened' component refers to the kernel being hardened with additional security features, while 'TKPG-PDS' stands for 'Team Kirkwood's Gentoo Patches with PDS scheduler'.
 
