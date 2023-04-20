@@ -10,11 +10,10 @@ The PDS scheduler in the TKPG-PDS variant is designed to improve system responsi
 
 Together with the added security features of the Hardened variant, the Andromeda kernel is a powerful and robust system that delivers both speed and security. Whether you are a power user or a security-conscious individual, the Andromeda kernel is designed to meet your needs and provide a reliable and efficient computing experience.
 # **Pre-requisites**
-```
 - gcc (compiler needed to make it work)
 - git (to copy the repository)
 - Free Space: 7GB
-```
+
 **To install the GCC you can follow this tutorial:**
 ```
 tar -xzf gcc-4.6.2.tar.gz
