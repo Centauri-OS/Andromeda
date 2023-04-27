@@ -39,7 +39,7 @@ sudo make install install-doc install-html install-info
 ```
 df -h /
 ```
-# Installation and compilation
+# Compilation and installation:  
 **Once you have the pre-requisites met, you now need to clone the repository:**
 ```
 git-clone https://github.com/Centauri-OS/Andromeda
