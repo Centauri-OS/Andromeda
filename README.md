@@ -39,4 +39,25 @@ sudo make install install-doc install-html install-info
 ```
 df -h /
 ```
-**In centauri-os you do not need to do this tutorial.**
+# Installation and compilation
+**Once you have the pre-requisites met, you now need to clone the repository:**
+```
+git-clone https://github.com/Centauri-OS/Andromeda
+```
+**Extract the kernel:**
+```
+tar -xvf andromeda.tar.gz -C ~/kernel
+```
+**Go to the directory where the kernel was extracted using the cd command. For example, if you extracted the kernel to ~/kernel, run the following command:**
+```
+cd ~/kernel/andromeda
+```
+**Compile with gcc:**
+```
+make CC=gcc -jX (X number of processor cores, to optimize the process)
+```
+**Now install the Kernel:**
+```
+make install
+```
+**Note that at the end of this process, your /boot folder will be updated with the andromeda kernel**
