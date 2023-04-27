@@ -39,3 +39,4 @@ sudo make install install-doc install-html install-info
 ```
 df -h /
 ```
+**In centauri-os you do not need to do this tutorial.**
