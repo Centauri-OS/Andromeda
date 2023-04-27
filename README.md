@@ -60,4 +60,4 @@ make CC=gcc -jX (X number of processor cores, to optimize the process)
 ```
 make install
 ```
-**Note that at the end of this process, your /boot folder will be updated with the andromeda kernel**
+**Note that at the end of this process, your /boot folder will be updated with the andromeda kernel.**
